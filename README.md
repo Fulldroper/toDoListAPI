@@ -13,10 +13,10 @@
 
 Scheme of reqest.
 - Get all tasks, method = GET path = `/`
-- Add task, method = PUL path = `/` body = `{value: "text"}`
-- Remove task, method = delete path = `/:id`
-- Change text of task, method = patch path = `/:id` body = `{value: "text"}`
-- Change status of task, method = patch path = `/:active or :inactive/:id`
+- Add task, method = PUT path = `/` body = `{value: "text"}`
+- Remove task, method = DELETE path = `/:id`
+- Change text of task, method = PATCH path = `/:id` body = `{value: "text"}`
+- Change status of task, method = PATCH path = `/:active or :inactive/:id`
   
 ### - how set database?
 > 1. Open file `auth_example.json`
