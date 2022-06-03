@@ -18,7 +18,7 @@ Scheme of reqest.
 - Change text of task, method = patch path = `/:id` body = `{value: "text"}`
 - Change status of task, method = patch path = `/:active or :inactive/:id`
   
-### - how set tatebase?
+### - how set database?
 > 1. Open file `auth_example.json`
 > 2. Change `to your db`
 > 3. Save changes
