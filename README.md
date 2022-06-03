@@ -8,7 +8,7 @@
 > 1. install packages
 `npm i`
 > 2. start server
-`nmp start`
+`npm start`
 ### - How to use?
 
 Scheme of reqest.
